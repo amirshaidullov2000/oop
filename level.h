@@ -6,12 +6,12 @@ const int levelRows = screenRows;
 const int levelColumns = screenColumns;
 
 const float shipSpeed = 35.0;
-const float shipFireCooldown = 0.2;
+const float shipFireCooldown = 0.15;
 
 const float bulletSpeed = 40.0;
 
 const float alienAmplitude = 7.0;
-const float alienSpeed = 0.23;
+const float alienSpeed = 0.25;
 
 
 const unsigned char	CellSymbol_Ship = 'S';
@@ -20,20 +20,20 @@ const unsigned char	CellSymbol_Alien = 'X';
 
 const unsigned char levelData0[levelRows][levelColumns + 1] =
 {
-	"                                                                                ",
-	"        XX            XX    XX  XXXXXXXX   XXX        XX    XX                  ",
-	"        XXXX          XX    XX     XX    XX  XX      XX    XX                   ",
-	"        XX  XX        XX    XX     XX   XX    XX    XX    XX                    ", 
-	"        XX    XX      XXXXXXXX     XX  XX  XX  XX  XXXXXXXX                     ",
-	"        XXXXXXXXXX    XX    XX     XX   XX    XX  XX    XX                      ", 
-	"         XX      XX   XX    XX     XX    XX  XX  XX    XX                       ",
-	"          XX      XX  XX    XX     XX     XXXX  XX    XX                        ",
-	"           XX      XX XX    XX     XX      XX  XX    XX                         ", 
-	"                                                                                ",
-	"                                                                                ",
-	"                                                                                ",
-	"                                                                                ",
-	"                                                                                ",
+	"          X        XXXXXXX                           XXXXXXX         X          ",
+	"         XXX  XXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXX  XXX         ",
+	"           XXXXX XX XXXXXXX  XXXXXXXXXXXXXXXXXXXXXX  XXXXXXX XX XXXXX           ",
+	"         XXXXXXXX   X  X  X  X  XXX  XXXXXX  XXX  X  X  X  X   XXXXXXXX         ",
+	"            XXXX    X  X     XXXXXXX  XXXX  XXXXXXX     X  X    XXXX            ",
+	"            XXX       X      X   XXXXX XXX XXXX   X      X       XXX            ",
+	"           X  XX            X     XXXXX  XXXXX     X            XX  X           ",
+	"           X  XX           X       X  XXXX  X       X           XX  X           ",
+	"               X                  X   X  X   X                  X               ",
+	"               X     X            X   X  X   X           X      X               ",
+	"                    XXX           X  X    X  X          XXX                     ",
+	"                X    X              X XXXX X             X     X                ",
+	"                 X                     XX                     X                 ",
+	"                                       XX                                       ",
 	"                                                                                ",
 	"                                                                                ",
 	"                                                                                ",

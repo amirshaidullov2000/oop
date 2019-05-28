@@ -4,7 +4,7 @@
 #include <cmath>
 #include "level.h"
 #include "input.h"
-
+///
 Game::Game()
 {
 	m_isGameActive = true;
@@ -60,7 +60,7 @@ void Game::initialize()
 					GetRenderCellSymbolColor(cellSymbol),
 					GetRenderCellSymbolBackgroundColor(cellSymbol));
 
-				alien->setXSpeed(alienAmplitude * cos(m_alienAmplitudeTime));
+				alien->setXSpeed(alienAmplitude);
 				alien->setYSpeed(alienSpeed);
 				break;
 			}
